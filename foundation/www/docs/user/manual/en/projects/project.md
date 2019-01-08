@@ -1,27 +1,34 @@
 <!-- add-breadcrumbs -->
 # Project
 
-The project is an individual or collaborative enterprise, possibly involving research or design, that is carefully planned, usually by a project team, to achieve a particular aim
+The project is an individual or collaborative enterprise, involving various types of tasks like research, design, execution, documentation that is carefully planned, usually by a project team, to achieve a particular aim.
 
-In ERPNext, Project management in is Task driven. You can a create Project and divide into multiple and assignable Tasks.
+In ERPNext, Project management in is 'Task' driven. You can a create Project with multiple and assignable Tasks.
 
 <img class="screenshot" alt="Project" src="{{docs_base_url}}/assets/img/project/project-1.1.png">
 
-### Managing Tasks
+### Defining Tasks
 
-The project is generally has a broader scope, and hence not assignable to an individual. Hence, you can divide the Project into multiple Tasks. These can be assigned to an individual and tracked better. 
+The project generally has a broader scope and the tasks within a project have specific scope and are executed by individual members.
 
 These Tasks can be created from a Project itself or a [Task](/docs/user/manual/en/projects/tasks.html) can be created separately as well.
 
+Tasks can be assigned to specific users using 'Assign' feature in task.
+
 <img class="screenshot" alt="Project" src="{{docs_base_url}}/assets/img/project/project-1.png">
 
-### Task Completion
+### Project Completion Status
 
-You can also track % Completion of a Project using different methods.
+You can configure the way completion status of each project is calculated.
 
-  1. Task Completion
-  2. Task Progress
-  3. Task Weight
+  1. Based on **Task Completion:** The overall project's status can be computed solely based on the number of tasks completed.
+     If there are 10 tasks in the project, and 5 tasks are in 'Closed' status, then overall project completion status will be 50%.
+     In this method each task carries equal weightage.
+  2. Based on **Task Progress:**   The overall project's status can be completed based on the percentage of completion of individual tasks.
+     If there are two tasks in the project and one task is 50% complete, then overall project is 25% complete.
+  3. Based on **Task Weight:** Some projects will have tasks with different weightage. Let's say an ERPNext feature development project has
+  requirement gathering, design, development, testing, and documentation tasks. Whole project is expected to be completed in 10 hours. Development is
+  expected to take take 6 hours and each of the remaining tasks 1 hour. In this project you can set the weightage of development task to 0.6 and for all other tasks 0.1, Please note the sum of weights assigned to all tasks should be equal to 1.
 
 <img class="screenshot" alt="Project 2" src="{{docs_base_url}}/assets/img/project/project-2.png">
 
