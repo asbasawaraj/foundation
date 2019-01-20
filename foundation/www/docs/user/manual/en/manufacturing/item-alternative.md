@@ -31,3 +31,5 @@ In subcontract, the user has to transfer raw materials to the subcontracted supp
 
 ##### How it works for subcontract
 <img class="screenshot" alt="Item" src="{{docs_base_url}}/assets/img/manufacturing/purchase_order_item_alternative.gif">
+
+{next}

@@ -1,3 +1,4 @@
+<!-- add-breadcrumbs -->
 # Job Card
 
 A Job Card is created from the Work Order and given to each of the workstation in the manufacturing floor to start the production of an item with a certain quantity in each of the operations defined in the Work Order.
@@ -71,3 +72,4 @@ Job Card completion allow us to track the manufacturing progress inside the Work
 
 <img class="screenshot" alt="Create Shareholder" src="/docs/assets/img/manufacturing/work-order-job-card-completion.png">
 
+{next}

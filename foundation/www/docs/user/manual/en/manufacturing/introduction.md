@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Introduction
 
-<img class="screenshot" alt="Task" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing.png">
+<img class="screenshot" alt="Manufacturing" src="{{docs_base_url}}/assets/img/manufacturing/manufacturing_module.png">
 
 ### Types of Production Planning
 
@@ -15,7 +15,7 @@ Most small and medium sized manufacturing businesses are based on a make-to-
 order or engineer-to-order system and so is ERPNext.
 
 For engineer-to-order systems, the Manufacturing module should be used along
-with the Projects module..
+with the Projects module.
 
 #### Manufacturing and Inventory
 

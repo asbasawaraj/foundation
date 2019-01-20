@@ -1,3 +1,4 @@
+<!-- add-breadcrumbs -->
 # Production Plan
 
 Production Plan helps user to plan production against multiple sales orders or the material requests. Also, it helps in Material Procurement planning for the raw-material item, based on the quantity of finished product to be manufactured.
@@ -51,3 +52,5 @@ To use the Production Plan, go to:
 # Options To Make Work Order and Material Request
 
 <img class="screenshot" alt="Make PO or MR" src="/docs/assets/img/manufacturing/make_po_mr.png">
+
+{next}
